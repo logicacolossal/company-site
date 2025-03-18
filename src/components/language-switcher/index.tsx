@@ -21,7 +21,7 @@ export function LanguageSwitcher() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon">
+        <Button variant="ghost" size="icon" aria-label="Language Switcher">
           <MdLanguage className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 text-foreground" />
         </Button>
       </DropdownMenuTrigger>

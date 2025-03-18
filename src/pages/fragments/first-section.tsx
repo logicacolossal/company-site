@@ -29,7 +29,7 @@ export function FirstSection() {
             <Card.Image
               className="group-hover:border-emerald-500 group-hover:bg-emerald-500/10"
               alt="graphs"
-              src="/images/graphs.png"
+              src="/images/graphs.avif"
               height={800}
               width={800}
             />
@@ -54,7 +54,7 @@ export function FirstSection() {
           <div className="flex w-full items-center justify-center">
             <Card.Image
               alt="laptop-web-dev"
-              src="/images/laptop-web-dev.png"
+              src="/images/laptop-web-dev.avif"
               height={800}
               width={800}
             />
@@ -77,7 +77,7 @@ export function FirstSection() {
           <div className="flex w-full items-center justify-center">
             <Card.Image
               alt="web-api-cloud"
-              src="/images/web-api-cloud.png"
+              src="/images/web-api-cloud.avif"
               height={800}
               width={800}
             />
@@ -96,7 +96,7 @@ export function FirstSection() {
         <Card>
           <Card.Image
             alt="monitor"
-            src="/images/monitor.png"
+            src="/images/monitor.avif"
             height={800}
             width={800}
           />

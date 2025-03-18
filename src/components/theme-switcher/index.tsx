@@ -16,6 +16,7 @@ export function ThemeSwitcher() {
   return mounted ? (
     <Button
       onClick={() => (theme === "light" ? setTheme("dark") : setTheme("light"))}
+      aria-label="Theme Switcher"
       variant="ghost"
       size="icon"
     >

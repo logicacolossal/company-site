@@ -17,8 +17,12 @@ export function MobileNavigation() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" size="icon">
-          <IoListOutline className="w-4 h-4" />
+        <Button
+          variant="outline"
+          size="icon"
+          aria-label="Open navigation options"
+        >
+          <IoListOutline className="w-4 h-4 text-foreground" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>

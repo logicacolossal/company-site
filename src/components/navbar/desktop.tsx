@@ -18,7 +18,7 @@ export function DesktopNavbar() {
   return (
     <div className="justify-between hidden sm:flex sm:w-full text-foreground">
       <div className="h-full flex gap-4 items-center">
-        <a href="/" className="relative group">
+        <a href="/" className="relative group" aria-label="Go to the main page">
           {/* <span className="font-jet-brains-mono text-4xl font-thin text-primary">
             L
           </span> */}
@@ -33,7 +33,7 @@ export function DesktopNavbar() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <a href="/services">
+              <a href="/services" aria-label="Go to the services page">
                 <NavigationMenuTrigger
                   className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
                 >
@@ -45,12 +45,13 @@ export function DesktopNavbar() {
                   <img
                     alt="react-js"
                     className="transition-all duration-300 border border-input rounded-lg hover:bg-primary/10 hover:border-primary"
-                    src="/images/reactjs.png"
+                    src="/images/reactjs.avif"
                     width={220}
                     height={80}
                   />
                   <NavigationMenuLink
                     href="/services/web-development"
+                    aria-label="Go to the web development service page"
                     className="group transition-all duration-300 flex flex-col gap-2 w-72 hover:bg-accent rounded-lg px-4 py-2 shadow-sm shadow-black/20"
                   >
                     <span className="transition-all duration-300 text-xl font-bold group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-teal-500 group-hover:bg-clip-text group-hover:text-transparent">
@@ -65,6 +66,7 @@ export function DesktopNavbar() {
                   </NavigationMenuLink>
                   <NavigationMenuLink
                     href="/services/web-api"
+                    aria-label="Go to the web API service page"
                     className="group transition-all duration-300 flex flex-col gap-2 w-72 hover:bg-accent rounded-lg px-4 py-2 shadow-sm shadow-black/20"
                   >
                     <span className="transition-all duration-300 text-xl font-bold group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-teal-500 group-hover:bg-clip-text group-hover:text-transparent">
@@ -76,6 +78,7 @@ export function DesktopNavbar() {
                   </NavigationMenuLink>
                   <NavigationMenuLink
                     href="/services/freelance"
+                    aria-label="Go to the freelance service page"
                     className="group transition-all duration-300 flex flex-col gap-2 w-72 hover:bg-accent rounded-lg px-4 py-2 shadow-sm shadow-black/20"
                   >
                     <span className="transition-all duration-300 text-xl font-bold group-hover:bg-gradient-to-br group-hover:from-sky-500 group-hover:to-teal-500 group-hover:bg-clip-text group-hover:text-transparent">
@@ -100,6 +103,7 @@ export function DesktopNavbar() {
               <a
                 href="https://mayom.app"
                 target="_blank"
+                aria-label="Go to our FMS (Financial Management System) product page"
                 className="transition-colors duration-300 text-xl font-bold text-emerald-500 p-2 bg-gradient-to-tr rounded-md hover:from-emerald-500 hover:to-cyan-500 hover:border hover:border-input hover:text-white"
               >
                 MAYOM

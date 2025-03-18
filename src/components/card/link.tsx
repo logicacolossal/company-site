@@ -10,7 +10,11 @@ type CardLinkProps = {
 
 export function CardLink({ href, text, className, target }: CardLinkProps) {
   return (
-    <a href={href} target={target}>
+    <a
+      href={href}
+      target={target}
+      aria-label="Click in this link to see more content related to the card's subject"
+    >
       <div className="group/link flex gap-0.5 items-center w-fit">
         <span
           className={cn(
