@@ -1,5 +1,6 @@
 import { Card } from "../../components/card";
 import { Trans, useTranslation } from "react-i18next";
+import { cn } from "../../lib/utils";
 
 export function FirstSection() {
   const homeTranslations = useTranslation("home-page");
@@ -22,7 +23,33 @@ export function FirstSection() {
         </h1>
       </div>
 
-      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <Card className="hover:bg-emerald-500/10 hover:border-emerald-500">
+          <div className="flex w-full items-center justify-center">
+            <Card.Image
+              className="group-hover:border-emerald-500 group-hover:bg-emerald-500/10"
+              alt="graphs"
+              src="/images/graphs.png"
+              height={800}
+              width={800}
+            />
+          </div>
+          <Card.Content>
+            <Card.Title className="text-emerald-500">
+              {homeTranslations.t("first.mayom.title")}
+            </Card.Title>
+            <p className={cn(className, "text-emerald-500")}>
+              {homeTranslations.t("first.mayom.description")}
+            </p>
+          </Card.Content>
+          <Card.Link
+            className="text-emerald-500"
+            href="https://mayom.app"
+            target="_blank"
+            text={commonTranslations.t("see-more")}
+          />
+        </Card>
+
         <Card>
           <div className="flex w-full items-center justify-center">
             <Card.Image

@@ -6,6 +6,10 @@
     "these": "these.",
     "first": {
       "title": "Build your <gradient>business</gradient> with us!",
+      "mayom": {
+        "title": "MAYOM",
+        "description": "MAYOM (MAnage Your Own Money) is a Financial Management System, that will help you control your expenses and grow your capital."
+      },
       "web-development": {
         "title": "Web Development",
         "description": "If you don't have a website or want to improve the current visual of it, make it with us! Our web development uses the latests front-end technologies to make websites look modern and just the way that you want."
