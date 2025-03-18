@@ -1,0 +1,91 @@
+{
+  "common": {
+    "see-more": "See more"
+  },
+  "home-page": {
+    "these": "these.",
+    "first": {
+      "title": "Build your <gradient>business</gradient> with us!",
+      "web-development": {
+        "title": "Web Development",
+        "description": "If you don't have a website or want to improve the current visual of it, make it with us! Our web development uses the latests front-end technologies to make websites look modern and just the way that you want."
+      },
+      "web-api": {
+        "title": "Web APIs",
+        "description": "We develop web services to be consumed by your website, blog or application to consume, this makes your work easier giving you more time to focus on important tasks!"
+      },
+      "freelance": {
+        "title": "Freelance",
+        "description": "We can do works that meet your needs, if you want a big or small part of your project done by other entity so you can focus on activities more important for yourself, please contact us!"
+      }
+    },
+    "second": {
+      "title": "The <gradient>technologies</gradient> we use!",
+      "front-end": {
+        "title": "Front End",
+        "description": "For the website looks, we use the latest technologies being used in the business that brings a modern, minimalistic and flexible design. Here are some of the technologies used:",
+        "items": [
+          {
+            "name": "React",
+            "description": "A JavaScript library that makes web development faster and easier with interactivity."
+          },
+          {
+            "name": "Tailwind CSS",
+            "description": "A utility-based CSS framework, makes the website development more simple, pretty and modern."
+          },
+          {
+            "name": "Expo",
+            "description": "Expo and EAS (Expo Application Service) are an ecosystem of tools that brings more speed and eficiency to mobile apps development."
+          }
+        ],
+        "conclusion": "Besides an amazing look, your website or mobile app will have a high performance and will satisfy your needs."
+      },
+      "back-end": {
+        "title": "Back End",
+        "description": "If your website, blog or application needs a dedicated service, we work with the necessary technologies to meet your needs:",
+        "items": [
+          {
+            "name": ".NET",
+            "description": "The free cross-platform C# framework to build services with a fast response."
+          },
+          {
+            "name": "MongoDB",
+            "description": "The most used NoSQL database in the world, with an architecture based on documents and high eficiency and flexibility."
+          },
+          {
+            "name": "SQL Server",
+            "description": "The most famous and used relational database, with an amazing performance on data work."
+          }
+        ],
+        "conclusion": "For a servicewhat matters is the effectiveness, response speed, escalability and flexibility, but this differs for each service and each technology must be chosed to meet what the service needs to do."
+      },
+      "used-techs-web-dev": "For web development we use ",
+      "used-techs-web-api": "For Web APIs we use "
+    }
+  },
+  "navbar": {
+    "contact-us": "Contacts",
+    "services": {
+      "title": "Services",
+      "web-development": {
+        "title": "Web Development",
+        "description": "Do you want a website specific to promote and display your business? Check out this section to know more about <b>SPA</b> and how it can help your business grow!"
+      },
+      "web-api": {
+        "title": "Web APIs",
+        "description": "If you have a website, blog or application and want a dedicated service, do it with us!"
+      },
+      "freelance": {
+        "title": "Freelance",
+        "description": "We are able to perform many tasks within the technologies used, for both Front End and Back End."
+      }
+    }
+  },
+  "footer": {
+    "contacts": {
+      "title": "Contacts"
+    },
+    "all-rights-reserved": "All rights reserved",
+    "privacy-policy": "Privacy Policy"
+  }
+}

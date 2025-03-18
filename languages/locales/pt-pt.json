@@ -1,0 +1,91 @@
+{
+  "common": {
+    "see-more": "Ver mais"
+  },
+  "home-page": {
+    "these": "estes.",
+    "first": {
+      "title": "Construa o teu <gradient>negócio</gradient> connosco!",
+      "web-development": {
+        "title": "Desenvolvimento Web",
+        "description": "Se ainda não tens um site ou queiras melhorar o seu visual atual, faça connosco! Nosso desenvolvimento web feito com as tecnologias de front-end mais atuais tornará o visual do teu site mais moderno e ficará ao teu gosto."
+      },
+      "web-api": {
+        "title": "Web APIs",
+        "description": "Desenvolvemos serviços web para o teu site, blog ou aplicação consumir, isto facilita o teu trabalho dando-te mais foco em tarefas mais relevantes para si!"
+      },
+      "freelance": {
+        "title": "Freelance",
+        "description": "Podemos fazer trabalhos específicos de acordo com a sua necessidade, se quer uma parte grande ou pequena do teu projeto feito por outra entidade para que foque em outras atividades mais importantes para si, fale connosco!"
+      }
+    },
+    "second": {
+      "title": "As <gradient>tecnologias</gradient> que usamos!",
+      "front-end": {
+        "title": "Front End",
+        "description": "Para a parte visual de um site, utilizamos as tecnologias mais atuais e em alta no mercado que trazem um design mais moderno, minimalista e flexível. Algumas das tecnologias que utilizamos:",
+        "items": [
+          {
+            "name": "React",
+            "description": "A biblioteca JavaScript que traz mais facilidade e velocidade no desenvolvimento de sites e aplicações com interatividade."
+          },
+          {
+            "name": "Tailwind CSS",
+            "description": "Um framework de CSS baseado em utilizadades, torna o desenvolvimento do site mais simples, bonito e moderno."
+          },
+          {
+            "name": "Expo",
+            "description": "Expo e o EAS (Expo Application Service) são um ecossistema de ferramentas que trazem um desenvolvimento mais veloz e eficiente para aplicações mobile."
+          }
+        ],
+        "conclusion": "Para além de um visual incrível, terás um site ou aplicação móvel de alta performance que cumprirá todas as suas necessidades."
+      },
+      "back-end": {
+        "title": "Back End",
+        "description": "Se o teu site, blog ou aplicação precisar de serviços especializados, trabalhamos com as tecnologias necessárias para atender a sua necessidade:",
+        "items": [
+          {
+            "name": ".NET",
+            "description": "O framework C# gratuito e multi-plataforma para construir serviços com respostas extremamente rápidas."
+          },
+          {
+            "name": "MongoDB",
+            "description": "A base de dados NoSQL mais utilizada do mundo, com uma arquitetura baseada em documentos e alta eficiência e flexibilidade."
+          },
+          {
+            "name": "SQL Server",
+            "description": "A base de dados relacional mais famosa e utilizada, com uma performance de execução de dados incrível."
+          }
+        ],
+        "conclusion": "Para um serviço, o que interessa é a eficâcia, velocidade de resposta, escalabilidade e flexibilidade, mas isso depende de cada serviço e cada tecnologia tem que ser selecionada para que atenda o que o serviço necessita."
+      },
+      "used-techs-web-dev": "Para desenvolvimento web usamos ",
+      "used-techs-web-api": "Para Web APIs usamos "
+    }
+  },
+  "navbar": {
+    "contact-us": "Contactos",
+    "services": {
+      "title": "Serviços",
+      "web-development": {
+        "title": "Desenvolvimento Web",
+        "description": "Queres um site específico para mostrar e promover o teu negócio? Veja esta secção sobre <b>SPA</b> e como ajudará o teu negócio crescer!"
+      },
+      "web-api": {
+        "title": "Web APIs",
+        "description": "Caso tenhas um site, blog ou aplicação e queiras um serviço dedicado, faça connosco!"
+      },
+      "freelance": {
+        "title": "Freelance",
+        "description": "Fazemos diversas tarefas dentro das tecnologias utilizadas tanto para Front End ou Back End."
+      }
+    }
+  },
+  "footer": {
+    "contacts": {
+      "title": "Contatos"
+    },
+    "all-rights-reserved": "Diretos reservados",
+    "privacy-policy": "Política de Privacidade"
+  }
+}
