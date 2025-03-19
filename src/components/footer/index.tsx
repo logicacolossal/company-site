@@ -16,6 +16,7 @@ export function Footer() {
             <div className="flex gap-2 items-center">
               <TfiEmail className="w-4 h-4" />{" "}
               <a
+                aria-label="Send an email to Logica Colossal"
                 href="mailto:logicacolossallda@gmail.com"
                 className="hover:underline"
               >
@@ -25,8 +26,10 @@ export function Footer() {
             <div className="flex gap-2 items-center">
               <FaInstagram className="w-4 h-4" />{" "}
               <a
+                aria-label="Go to Logica Colossal Instagram account"
                 href="mailto:logicacolossallda@gmail.com"
                 className="hover:underline"
+                target="_blank"
               >
                 Logica Colossal
               </a>
@@ -34,8 +37,10 @@ export function Footer() {
             <div className="flex gap-2 items-center">
               <FaLinkedin className="w-4 h-4" />{" "}
               <a
+                aria-label="Go to Logica Colossal Linkedin account"
                 href="mailto:logicacolossallda@gmail.com"
                 className="hover:underline"
+                target="_blank"
               >
                 Logica Colossal
               </a>
@@ -43,8 +48,10 @@ export function Footer() {
             <div className="flex gap-2 items-center">
               <IoLogoGithub className="w-4 h-4" />{" "}
               <a
-                href="mailto:logicacolossallda@gmail.com"
+                aria-label="Go to Logica Colossal GitHub page"
+                href="https://github.com/logicacolossal"
                 className="hover:underline"
+                target="_blank"
               >
                 Logica Colossal
               </a>
@@ -56,19 +63,16 @@ export function Footer() {
           <div className="flex flex-col gap-2">
             <span>Mobile Application Development</span>
             <span>Website</span>
-            <span>Prices</span>
           </div>
         </div>
         <div className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold">Web APIs</h1>
           <div className="flex flex-col gap-2">
             <span>.NET Service</span>
-            <span>Prices</span>
           </div>
         </div>
         <div className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold">Freelance</h1>
-          <span>Prices</span>
         </div>
       </div>
       <div className="flex flex-col gap-4 w-full items-center justify-evenly p-4 md:flex-row">

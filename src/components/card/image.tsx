@@ -8,7 +8,7 @@ export function CardImage({ alt, src, className, ...props }: CardImageProps) {
       alt={alt}
       src={src}
       className={cn(
-        "transition-all duration-300 rounded-lg border border-input group-hover:border-primary bg-accent group-hover:bg-primary/10",
+        "transition-all duration-300 rounded-lg border border-input group-hover:border-primary bg-accent object-contain group-hover:bg-primary/10",
         className
       )}
       {...props}

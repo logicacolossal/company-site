@@ -23,6 +23,7 @@ export function DesktopNavbar() {
             L
           </span> */}
           <img
+            loading="lazy"
             alt="colossus"
             src="/images/colossus-colored.svg"
             width={20}
@@ -42,13 +43,16 @@ export function DesktopNavbar() {
               </a>
               <NavigationMenuContent>
                 <div className="flex gap-6 p-4">
-                  <img
-                    alt="react-js"
-                    className="transition-all duration-300 border border-input rounded-lg hover:bg-primary/10 hover:border-primary"
-                    src="/images/reactjs.avif"
-                    width={220}
-                    height={80}
-                  />
+                  <div className="w-72">
+                    <img
+                      alt="react-js"
+                      loading="lazy"
+                      className="transition-all duration-300 border border-input rounded-lg hover:bg-primary/10 hover:border-primary"
+                      src="/images/reactjs.avif"
+                      width={800}
+                      height={1080}
+                    />
+                  </div>
                   <NavigationMenuLink
                     href="/services/web-development"
                     aria-label="Go to the web development service page"
