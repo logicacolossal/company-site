@@ -19,9 +19,6 @@ export function DesktopNavbar() {
     <div className="justify-between hidden sm:flex sm:w-full text-foreground">
       <div className="h-full flex gap-4 items-center">
         <a href="/" className="relative group" aria-label="Go to the main page">
-          {/* <span className="font-jet-brains-mono text-4xl font-thin text-primary">
-            L
-          </span> */}
           <img
             loading="lazy"
             alt="colossus"

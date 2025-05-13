@@ -17,17 +17,16 @@ export function Footer() {
               <TfiEmail className="w-4 h-4" />{" "}
               <a
                 aria-label="Send an email to Logica Colossal"
-                href="mailto:logicacolossallda@gmail.com"
+                href="mailto:support@logicacolossal.pt"
                 className="hover:underline"
               >
-                logicacolossallda@gmail.com
+                support@logicacolossal.pt
               </a>
             </div>
             <div className="flex gap-2 items-center">
               <FaInstagram className="w-4 h-4" />{" "}
               <a
                 aria-label="Go to Logica Colossal Instagram account"
-                href="mailto:logicacolossallda@gmail.com"
                 className="hover:underline"
                 target="_blank"
               >
@@ -38,7 +37,6 @@ export function Footer() {
               <FaLinkedin className="w-4 h-4" />{" "}
               <a
                 aria-label="Go to Logica Colossal Linkedin account"
-                href="mailto:logicacolossallda@gmail.com"
                 className="hover:underline"
                 target="_blank"
               >
@@ -59,20 +57,20 @@ export function Footer() {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className="text-2xl font-semibold">Web Development</h1>
+          <h1 className="text-2xl font-semibold">{t("web-development")}</h1>
           <div className="flex flex-col gap-2">
-            <span>Mobile Application Development</span>
-            <span>Website</span>
+            <span>{t("mobile-app-development")}</span>
+            <span>{t("website")}</span>
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className="text-2xl font-semibold">Web APIs</h1>
+          <h1 className="text-2xl font-semibold">{t("web-apis")}</h1>
           <div className="flex flex-col gap-2">
-            <span>.NET Service</span>
+            <span>{t("dotnet-services")}</span>
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className="text-2xl font-semibold">Freelance</h1>
+          <h1 className="text-2xl font-semibold">{t("freelance")}</h1>
         </div>
       </div>
       <div className="flex flex-col gap-4 w-full items-center justify-evenly p-4 md:flex-row">

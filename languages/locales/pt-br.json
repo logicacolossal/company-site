@@ -1,26 +1,28 @@
 {
   "common": {
-    "see-more": "Ver mais informações"
+    "see-more": "Ver mais informações",
+    "required-field": "Campo obrigatório.",
+    "email-field": "Este campo requer um email válido."
   },
   "home-page": {
     "these": "estes.",
     "first": {
-      "title": "Construa o teu <gradient>negócio</gradient> connosco!",
+      "title": "Construa o seu <gradient>negócio</gradient> connosco!",
       "mayom": {
         "title": "MAYOM",
         "description": "MAYOM (MAnage Your Own Money) é um sistema de gerenciamento financeiro, que irá te ajudar a controlar os seus gastos e crescer o seu capital."
       },
       "web-development": {
         "title": "Desenvolvimento Web",
-        "description": "Se ainda não tens um site ou queiras melhorar o seu visual atual, faça connosco! Nosso desenvolvimento web feito com as tecnologias de front-end mais atuais tornará o visual do teu site mais moderno e ficará ao teu gosto."
+        "description": "Se ainda não tens um site ou queiras melhorar o seu visual atual, faça connosco! Nosso desenvolvimento web feito com as tecnologias de front-end mais atuais tornará o visual do seu site mais moderno e ficará ao seu gosto."
       },
       "web-api": {
         "title": "Web APIs",
-        "description": "Desenvolvemos serviços web para o teu site, blog ou aplicação consumir, isto facilita o teu trabalho dando-te mais foco em tarefas mais relevantes para si!"
+        "description": "Desenvolvemos serviços web para o seu site, blog ou aplicação consumir, isto facilita o seu trabalho dando-te mais foco em tarefas mais relevantes para si!"
       },
       "freelance": {
         "title": "Freelance",
-        "description": "Podemos fazer trabalhos específicos de acordo com a sua necessidade, se quer uma parte grande ou pequena do teu projeto feito por outra entidade para que foque em outras atividades mais importantes para si, fale connosco!"
+        "description": "Podemos fazer trabalhos específicos de acordo com a sua necessidade, se quer uma parte grande ou pequena do seu projeto feito por outra entidade para que foque em outras atividades mais importantes para si, fale connosco!"
       }
     },
     "second": {
@@ -46,7 +48,7 @@
       },
       "back-end": {
         "title": "Back End",
-        "description": "Se o teu site, blog ou aplicação precisar de serviços especializados, trabalhamos com as tecnologias necessárias para atender a sua necessidade:",
+        "description": "Se o seu site, blog ou aplicação precisar de serviços especializados, trabalhamos com as tecnologias necessárias para atender a sua necessidade:",
         "items": [
           {
             "name": ".NET",
@@ -67,13 +69,51 @@
       "used-techs-web-api": "Para Web APIs usamos "
     }
   },
+  "services": {
+    "title": "Inovação Digital Sob Medida para o Seu Sucesso!",
+    "description": "Bem-vindo à <gradient>Lógica Colossal</gradient>! Somos uma equipe apaixonada por tecnologia, dedicada a transformar suas ideias em soluções digitais robustas, escaláveis e com foco na experiência do usuário. Entendemos que cada negócio é único, portanto, oferecemos serviços de desenvolvimento de sistemas personalizados para impulsionar o seu crescimento.",
+    "services-intro": "Combinamos o poder e a versatilidade de tecnologias de ponta para entregar soluções completas e eficientes, aqui está o que podemos fazer por você:",
+    "web-development": {
+      "title": "Desenvolvimento Web",
+      "description": "Construímos aplicações web modernas e dinâmicas, com um back-end robusto e seguro em e interfaces de usuário interativas e performáticas. Seja um e-commerce, um sistema de gestão complexo ou uma plataforma informativa intuitiva, nossa expertise garante uma experiência online excepcional para seus clientes e usuários."
+    },
+    "web-apis": {
+      "title": "Web APIs",
+      "description": "Integramos sistemas e dados de forma inteligente e segura através do desenvolvimento de APIs personalizadas. Criamos pontes eficientes entre suas aplicações, permitindo a comunicação fluida e a otimização de processos, seja para integração interna ou para oferecer serviços a parceiros e clientes."
+    },
+    "mobile-app": {
+      "title": "Desenvolvimento de Aplicativos para Celular",
+      "description": "Levamos a sua marca e seus serviços para a palma da mão dos seus clientes. Desenvolvemos aplicativos nativos para Android e iOS, com interfaces intuitivas, funcionalidades inovadoras e foco na segurança, garantindo a satisfação dos seus usuários mobile."
+    },
+    "freelance": {
+      "title": "Freelance",
+      "description": "Com foco na qualidade, performance e entrega dentro do prazo, podemos fazer o que você quiser em relação a desenvolvimento de software, entre em contato conosco e vamos falar sobre as suas ideias e como nos podemos transformá-las em realidade digital."
+    },
+    "conclusion": {
+      "title": "Vamos transformar a sua visão em realidade digital?",
+      "description": "Entre em contato conosco e descubra como a <gradient>Lógica Colossal</gradient> pode impulsionar o seu negócio com soluções de desenvolvimento de sistemas inovadoras e sob medida. Estamos ansiosos para ouvir sobre o seu novo projeto!"
+    },
+    "contact-form": "Envie-nos uma Menssagem"
+  },
+  "contact-us": {
+    "title": "Contacte-nos",
+    "description": "Estamos aqui para transformar suas ideias em poderosas soluções digitais. Se está procurando um aplicativo personalizado, aumentar o seu sistema existente, ou falar sobre os nossos serviços, nossa equipe está pronta para ajudar. Entre em contato e vamos começar nosa conversa.",
+    "form": {
+      "title": "Trabalhe Conosco",
+      "name": "Nome",
+      "company": "Nome da Empresa",
+      "email": "Email",
+      "message": "Menssagem",
+      "submit": "Enviar"
+    }
+  },
   "navbar": {
-    "contact-us": "Contactos",
+    "contact-us": "Contatos",
     "services": {
       "title": "Serviços",
       "web-development": {
         "title": "Desenvolvimento Web",
-        "description": "Queres um site específico para mostrar e promover o teu negócio? Veja esta secção sobre <b>SPA</b> e como ajudará o teu negócio crescer!"
+        "description": "Queres um site específico para mostrar e promover o seu negócio? Veja esta secção sobre <b>SPA</b> e como ajudará o seu negócio crescer!"
       },
       "web-api": {
         "title": "Web APIs",
@@ -89,6 +129,12 @@
     "contacts": {
       "title": "Contatos"
     },
+    "web-development": "Desenvolvimento Web",
+    "dotnet-services": "Serviços .NET",
+    "mobile-app-development": "Desenvolvimento de Aplicativos Mobile",
+    "website": "Website",
+    "web-apis": "Web APIs",
+    "freelance": "Freelance",
     "all-rights-reserved": "Diretos reservados",
     "privacy-policy": "Política de Privacidade"
   }

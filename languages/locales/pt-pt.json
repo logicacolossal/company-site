@@ -1,6 +1,8 @@
 {
   "common": {
-    "see-more": "Ver mais informações"
+    "see-more": "Ver mais informações",
+    "required-field": "Campo obrigatório.",
+    "email-field": "Este campo requer um email válido."
   },
   "home-page": {
     "these": "estes.",
@@ -12,15 +14,15 @@
       },
       "web-development": {
         "title": "Desenvolvimento Web",
-        "description": "Se ainda não tens um site ou queiras melhorar o seu visual atual, faça connosco! Nosso desenvolvimento web feito com as tecnologias de front-end mais atuais tornará o visual do teu site mais moderno e ficará ao teu gosto."
+        "description": "Se ainda não tens um site ou queres melhorar o visual dele, faça connosco! O nosso desenvolvimento web, feito com tecnologias de front-end mais atuais, tornará o visual do teu site mais moderno e ficará ao teu gosto."
       },
       "web-api": {
         "title": "Web APIs",
-        "description": "Desenvolvemos serviços web para o teu site, blog ou aplicação consumir, isto facilita o teu trabalho dando-te mais foco em tarefas mais relevantes para si!"
+        "description": "Desenvolvemos serviços web para o teu site, blog ou aplicação consumir, isto facilita o teu trabalho dando-te mais foco em tarefas mais relevantes para ti!"
       },
       "freelance": {
         "title": "Freelance",
-        "description": "Podemos fazer trabalhos específicos de acordo com a sua necessidade, se quer uma parte grande ou pequena do teu projeto feito por outra entidade para que foque em outras atividades mais importantes para si, fale connosco!"
+        "description": "Podemos fazer trabalhos específicos de acordo com a tua necessidade, se queres uma parte grande ou pequena do teu projeto feito por outra entidade, para que te foques em outras atividades mais importantes, fala connosco!"
       }
     },
     "second": {
@@ -35,18 +37,18 @@
           },
           {
             "name": "Tailwind CSS",
-            "description": "Um framework de CSS baseado em utilizadades, torna o desenvolvimento do site mais simples, bonito e moderno."
+            "description": "Um framework de CSS baseado em utilidades, torna o desenvolvimento do site mais simples, bonito e moderno."
           },
           {
             "name": "Expo",
             "description": "Expo e o EAS (Expo Application Service) são um ecossistema de ferramentas que trazem um desenvolvimento mais veloz e eficiente para aplicações mobile."
           }
         ],
-        "conclusion": "Para além de um visual incrível, terás um site ou aplicação móvel de alta performance que cumprirá todas as suas necessidades."
+        "conclusion": "Para além de um visual incrível, terás um site ou aplicação móvel de alta performance que cumprirá todas as tuas necessidades."
       },
       "back-end": {
         "title": "Back End",
-        "description": "Se o teu site, blog ou aplicação precisar de serviços especializados, trabalhamos com as tecnologias necessárias para atender a sua necessidade:",
+        "description": "Se o teu site, blog ou aplicação precisar de serviços especializados, trabalhamos com as tecnologias necessárias para atender e superar as tuas expectativas:",
         "items": [
           {
             "name": ".NET",
@@ -61,10 +63,48 @@
             "description": "A base de dados relacional mais famosa e utilizada, com uma performance de execução de dados incrível."
           }
         ],
-        "conclusion": "Para um serviço, o que interessa é a eficâcia, velocidade de resposta, escalabilidade e flexibilidade, mas isso depende de cada serviço e cada tecnologia tem que ser selecionada para que atenda o que o serviço necessita."
+        "conclusion": "Para um serviço, o que interessa é a eficácia, velocidade de resposta, escalabilidade e flexibilidade, mas isso depende de cada serviço e cada tecnologia tem que ser selecionada para que atenda o que o serviço necessita."
       },
       "used-techs-web-dev": "Para desenvolvimento web usamos ",
       "used-techs-web-api": "Para Web APIs usamos "
+    }
+  },
+  "services": {
+    "title": "Inovação Digital Sob Medida para o teu Sucesso!",
+    "description": "Bem-vindo à <gradient>Lógica Colossal</gradient>! Somos uma equipa apaixonada por tecnologia, dedicada a transformar as tuas ideias em soluções digitais robustas, escaláveis e com foco na experiência do utilizador. Entendemos que cada negócio é único, portanto, oferecemos serviços de desenvolvimento de sistemas personalizados para impulsionar o teu crescimento.",
+    "services-intro": "Combinamos o poder e a versatilidade de tecnologias de ponta para entregar soluções completas e eficientes, aqui está o que podemos fazer por ti:",
+    "web-development": {
+      "title": "Desenvolvimento Web",
+      "description": "Construímos aplicações web modernas e dinâmicas, com um back-end elaborado, seguro, com interfaces de utilizador interativas e performáticas. Seja um e-commerce, um sistema de gestão complexo ou uma plataforma informativa intuitiva, a nossa expertise garante uma experiência online excepcional para os teus clientes e utilizadores."
+    },
+    "web-apis": {
+      "title": "Web APIs",
+      "description": "Integramos sistemas e dados de forma inteligente e segura através do desenvolvimento de APIs personalizadas. Criamos pontes eficientes entre as tuas aplicações, permitindo a comunicação fluída e a otimização de processos, seja para integração interna ou para oferecer serviços a parceiros e clientes."
+    },
+    "mobile-app": {
+      "title": "Desenvolvimento de Aplicações para Telemóveis",
+      "description": "Levamos a tua marca e os teus serviços para a palma da mão dos teus clientes. Desenvolvemos aplicações nativas para Android e iOS, com interfaces intuitivas, funcionalidades inovadoras e foco na segurança, garantindo a satisfação dos teus utilizadores mobile."
+    },
+    "freelance": {
+      "title": "Freelance",
+      "description": "Com foco na qualidade, performance e entrega dentro do prazo, podemos fazer o que quiseres em relação a desenvolvimento de software, entre em contacto connosco e vamos falar sobre as tuas ideias e como nós podemos transformá-las em realidade digital."
+    },
+    "conclusion": {
+      "title": "Vamos transformar a tua visão em realidade digital?",
+      "description": "Entre em contacto connosco e descubra como a <gradient>Lógica Colossal</gradient> pode impulsionar o teu negócio com soluções de desenvolvimento de sistemas inovadoras e sob medida. Estamos ansiosos para ouvir sobre o teu novo projeto!"
+    },
+    "contact-form": "Envie-nos uma Menssagem"
+  },
+  "contact-us": {
+    "title": "Contacte-nos",
+    "description": "Estamos aqui para transformar as tuas ideias em poderosas soluções digitais. Se estás a procura de uma aplicação personalizada, aumentar o teu sistema existente, ou falar sobre os nossos serviços, a nossa equipa está pronta para ajudar-te. Entre em contacto e vamos começar a nossa conversa.",
+    "form": {
+      "title": "Trabalha Conosco",
+      "name": "Nome",
+      "company": "Nome da Empresa",
+      "email": "Email",
+      "message": "Menssagem",
+      "submit": "Enviar"
     }
   },
   "navbar": {
@@ -89,6 +129,12 @@
     "contacts": {
       "title": "Contatos"
     },
+    "web-development": "Desenvolvimento Web",
+    "dotnet-services": "Serviços .NET",
+    "mobile-app-development": "Desenvolvimento de Aplicações Mobile",
+    "website": "Website",
+    "web-apis": "Web APIs",
+    "freelance": "Freelance",
     "all-rights-reserved": "Diretos reservados",
     "privacy-policy": "Política de Privacidade"
   }

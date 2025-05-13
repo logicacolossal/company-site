@@ -1,6 +1,8 @@
 {
   "common": {
-    "see-more": "See more information"
+    "see-more": "See more information",
+    "required-field": "Required field.",
+    "email-field": "This field must be an valid email."
   },
   "home-page": {
     "these": "these.",
@@ -67,6 +69,44 @@
       "used-techs-web-api": "For Web APIs we use "
     }
   },
+  "services": {
+    "title": "Digital Innovation Tailored for Your Success!",
+    "description": "Welcome to <gradient>Lógica Colossal</gradient>! We are a passionate team for technology, dedicate to transform your ideas in digital robust solutions, escalable and with focus on the user experience. We understand that each business is unique, therefore, we offer software development services customized to boost your growth.",
+    "services-intro": "We combine the power and versatility of cutting-edge technologies to deliver complete and efficient solutions, here is what we can do for you:",
+    "web-development": {
+      "title": "Web Development",
+      "description": "We build modern and dynamic web applications, with a safe and robust back-end in and interactive and performative user interface. Be it e-commerce, a complex management system or an intuitive information platform, our expertise ensure a excepcional online experience for your users and clients."
+    },
+    "web-apis": {
+      "title": "Web APIs",
+      "description": "We integrate systems and data intelligently and securely through the development of customized APIs. We create efficient bridges between your applications, enabling fluid communication and process optimization, whether for internal integration or to offer services to partners and customers."
+    },
+    "mobile-app": {
+      "title": "Mobile Application Development",
+      "description": "We bring your brand and services to the palm of your customers' hands. We develop native applications for Android and iOS, with intuitive interfaces, innovative features and a focus on security, ensuring the satisfaction of your mobile users."
+    },
+    "freelance": {
+      "title": "Freelance",
+      "description": "With focus on quality, performance and delivering within the deadline, we can make anything that you want regarding software development, get in touch with us and let's talk about your ideas and how we can turn them into digital reality."
+    },
+    "conclusion": {
+      "title": "Let's turn your vision into digital reality?",
+      "description": "Get in touch with us e find out how <gradient>Lógica Colossal</gradient> can boost your business with innovative and tailored system development solutions. We can't wait to hear about your new project!"
+    },
+    "contact-form": "Send Us a Message"
+  },
+  "contact-us": {
+    "title": "Contact Us",
+    "description": "We’re here to turn your ideas into powerful digital solutions. Whether you're looking to build a custom application, scale your existing systems, or want to talk about our services, our team is ready to help. Reach out and let's start the conversation.",
+    "form": {
+      "title": "Work with Us",
+      "name": "Name",
+      "company": "Company Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send"
+    }
+  },
   "navbar": {
     "contact-us": "Contacts",
     "services": {
@@ -89,6 +129,12 @@
     "contacts": {
       "title": "Contacts"
     },
+    "web-development": "Web Development",
+    "dotnet-services": ".NET Services",
+    "mobile-app-development": "Mobile Applications Development",
+    "website": "Website",
+    "web-apis": "Web APIs",
+    "freelance": "Freelance",
     "all-rights-reserved": "All rights reserved",
     "privacy-policy": "Privacy Policy"
   }
