@@ -88,10 +88,11 @@ export function FirstSection() {
               {homeTranslations.t("first.web-api.description")}
             </p>
           </Card.Content>
-          <Card.Link
+          <div />
+          {/* <Card.Link
             href="/services/web-api"
             text={commonTranslations.t("see-more")}
-          />
+          /> */}
         </Card>
         <Card>
           <Card.Image
@@ -108,10 +109,11 @@ export function FirstSection() {
               {homeTranslations.t("first.freelance.description")}
             </p>
           </Card.Content>
-          <Card.Link
+          <div />
+          {/* <Card.Link
             href="/services/freelance"
             text={commonTranslations.t("see-more")}
-          />
+          /> */}
         </Card>
       </div>
     </div>

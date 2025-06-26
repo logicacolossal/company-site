@@ -1,16 +1,16 @@
 import { ThemeSwitcher } from "../theme-switcher";
 import {
   NavigationMenu,
-  NavigationMenuContent,
+  //NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
 } from "../ui/navigation-menu";
-import { NavigationMenuTrigger } from "@radix-ui/react-navigation-menu";
+//import { NavigationMenuTrigger } from "@radix-ui/react-navigation-menu";
 import { LanguageSwitcher } from "../language-switcher";
 import { Separator } from "../ui/separator";
-import { Trans, useTranslation } from "react-i18next";
+import { /*Trans,*/ useTranslation } from "react-i18next";
 
 export function DesktopNavbar() {
   const { t } = useTranslation("navbar");
@@ -31,6 +31,14 @@ export function DesktopNavbar() {
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
+              <a
+                className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
+                href="/services"
+              >
+                {t("services.title")}
+              </a>
+            </NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <a href="/services" aria-label="Go to the services page">
                 <NavigationMenuTrigger
                   className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
@@ -91,7 +99,7 @@ export function DesktopNavbar() {
                   </NavigationMenuLink>
                 </div>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
             <NavigationMenuItem>
               <NavigationMenuLink
                 href="/contact-us"

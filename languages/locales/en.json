@@ -95,6 +95,33 @@
     },
     "contact-form": "Send Us a Message"
   },
+  "web-development": {
+    "title": "Custom Web Development That Moves Business Forward",
+    "description": "At <gradient>Lógica Colossal</gradient>, we engineer high-performance digital experiences. Whether you're a startup looking to make your mark or an enterprise scaling your digital footprint, our expert web developers bring your vision to life with clean code, seamless UX, and scalable architecture.",
+    "what-we-deliver": {
+      "title": "What We Deliver",
+      "custom-web-apps": {
+        "title": "Custom Web Applications",
+        "description": "From concept to code, we develop robust, secure, and responsive web apps tailored to your business goals."
+      },
+      "responsive": {
+        "title": "Responsive Design",
+        "description": "We ensure every experience is optimized across devices, from smartphones to desktops."
+      },
+      "user-centric": {
+        "title": "User-Centric UI/UX",
+        "description": "Design that doesn’t just look good—but works beautifully for your users."
+      },
+      "security-performance": {
+        "title": "Security & Performance",
+        "description": "Your site will be fast, reliable, and protected with the latest security best practices."
+      }
+    },
+    "conclusion": {
+      "title": "Ready to Build What’s Next?",
+      "description": "Partner with a team that understands the tech and the business. Let’s create something remarkable together. Get in touch with us through our contacts or the contact form."
+    }
+  },
   "contact-us": {
     "title": "Contact Us",
     "description": "We’re here to turn your ideas into powerful digital solutions. Whether you're looking to build a custom application, scale your existing systems, or want to talk about our services, our team is ready to help. Reach out and let's start the conversation.",

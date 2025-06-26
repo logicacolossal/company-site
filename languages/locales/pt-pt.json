@@ -95,6 +95,33 @@
     },
     "contact-form": "Envie-nos uma Menssagem"
   },
+  "web-development": {
+    "title": "Desenvolvimento Web Personalizado que Move Negócios",
+    "description": "Na <gradient>Lógica Colossal</gradient> nós projetamos experiências digitais de alto desempenho. Sejas tu uma startup buscando deixar sua marca ou uma empresa a expandir sua presença digital, nossos desenvolvedores web especialistas dão vida à sua visão com código limpo, UX integrado e arquitetura escalável.",
+    "what-we-deliver": {
+      "title": "O que Nós Entregamos",
+      "custom-web-apps": {
+        "title": "Aplicativos Web Customizados",
+        "description": "De conceito para código, nós desenvolvemos web apps responsivas, robustas, seguras e feitas sob medida para os objetivos do teu negócio."
+      },
+      "responsive": {
+        "title": "Design Responsivo",
+        "description": "Nós garantimos que toda experiência esteja otimizada para todos os dispositivos, desde telemóveis até monitores."
+      },
+      "user-centric": {
+        "title": "UI/UX Centrado no Utilizador",
+        "description": "Design que não é apenas bonito, mas funciona lindamente para os seus utilizadores."
+      },
+      "security-performance": {
+        "title": "Segurança & Performance",
+        "description": "Seu site será rápido, confiável, e protegido com as práticas de segurança mais atuais."
+      }
+    },
+    "conclusion": {
+      "title": "Pronto para Construir o Que Vem a Seguir?",
+      "description": "Faça uma parceria com uma equipa que entede a tecnologia e o negócio. Vamos criar algo notável juntos. Entre em contato connosco, pelos nossos contactos ou pelo formulário."
+    }
+  },
   "contact-us": {
     "title": "Contacte-nos",
     "description": "Estamos aqui para transformar as tuas ideias em poderosas soluções digitais. Se estás a procura de uma aplicação personalizada, aumentar o teu sistema existente, ou falar sobre os nossos serviços, a nossa equipa está pronta para ajudar-te. Entre em contacto e vamos começar a nossa conversa.",

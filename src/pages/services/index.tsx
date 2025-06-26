@@ -37,7 +37,10 @@ export function ServicesPage() {
               {t("web-development.description")}
             </span>
           </Card.Content>
-          <Card.Link href="/web-development" text={t("common:see-more")} />
+          <Card.Link
+            href="/services/web-development"
+            text={t("common:see-more")}
+          />
         </Card>
         <Card>
           <Card.Content>
@@ -46,7 +49,8 @@ export function ServicesPage() {
               {t("web-apis.description")}
             </span>
           </Card.Content>
-          <Card.Link href="/web-apis" text={t("common:see-more")} />
+          <div />
+          {/* <Card.Link href="/services/web-apis" text={t("common:see-more")} /> */}
         </Card>
         <Card>
           <Card.Content>
@@ -63,7 +67,8 @@ export function ServicesPage() {
               {t("freelance.description")}
             </span>
           </Card.Content>
-          <Card.Link href="/web-development" text={t("common:see-more")} />
+          <div />
+          {/* <Card.Link href="/services/freelance" text={t("common:see-more")} /> */}
         </Card>
       </div>
       <div className="flex flex-col gap-10 items-center w-full md:w-4/5 xl:w-3/5">
