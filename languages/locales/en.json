@@ -153,6 +153,8 @@
     }
   },
   "footer": {
+    "title": "Let's turn your ideia into reality, get in touch with us!",
+    "send-message": "Send Message",
     "contacts": {
       "title": "Contacts"
     },

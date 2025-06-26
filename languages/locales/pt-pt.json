@@ -119,14 +119,14 @@
     },
     "conclusion": {
       "title": "Pronto para Construir o Que Vem a Seguir?",
-      "description": "Faça uma parceria com uma equipa que entede a tecnologia e o negócio. Vamos criar algo notável juntos. Entre em contato connosco, pelos nossos contactos ou pelo formulário."
+      "description": "Faça uma parceria com uma equipa que entede a tecnologia e o negócio. Vamos criar algo notável juntos. Entre em contacto connosco, pelos nossos contactos ou pelo formulário."
     }
   },
   "contact-us": {
     "title": "Contacte-nos",
     "description": "Estamos aqui para transformar as tuas ideias em poderosas soluções digitais. Se estás a procura de uma aplicação personalizada, aumentar o teu sistema existente, ou falar sobre os nossos serviços, a nossa equipa está pronta para ajudar-te. Entre em contacto e vamos começar a nossa conversa.",
     "form": {
-      "title": "Trabalha Conosco",
+      "title": "Trabalha Connosco",
       "name": "Nome",
       "company": "Nome da Empresa",
       "email": "Email",
@@ -153,8 +153,10 @@
     }
   },
   "footer": {
+    "title": "Vamos transformar a sua ideia em realidade, entre em contacto connosco!",
+    "send-message": "Enviar Mensagem",
     "contacts": {
-      "title": "Contatos"
+      "title": "Contactos"
     },
     "web-development": "Desenvolvimento Web",
     "dotnet-services": "Serviços .NET",

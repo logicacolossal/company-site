@@ -16,7 +16,7 @@ export function FirstSection() {
             defaults={homeTranslations.t("first.title")}
             components={{
               gradient: (
-                <span className="bg-gradient-to-br from-sky-500 to-purple-500 bg-clip-text text-transparent text-extrabold" />
+                <span className="bg-gradient-to-br from-sky-500 to-purple-500 bg-clip-text text-transparent font-extrabold" />
               ),
             }}
           />

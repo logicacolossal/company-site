@@ -154,6 +154,8 @@
     }
   },
   "footer": {
+    "title": "Vamos transformar a sua ideia em realidade, entre em contato conosco!",
+    "send-message": "Enviar Mensagem",
     "contacts": {
       "title": "Contatos"
     },
