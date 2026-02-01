@@ -125,6 +125,16 @@
   "contact-us": {
     "title": "Contacte-nos",
     "description": "Estamos aqui para transformar as tuas ideias em poderosas soluções digitais. Se estás a procura de uma aplicação personalizada, aumentar o teu sistema existente, ou falar sobre os nossos serviços, a nossa equipa está pronta para ajudar-te. Entre em contacto e vamos começar a nossa conversa.",
+    "message": {
+      "submitted": {
+        "title": "Enviado!",
+        "description": "A tua mensagem foi enviada, obrigado por entrar em contacto!"
+      },
+      "failed": {
+        "title": "Algo deu errado.",
+        "description": "Sentimos muito, nós não conseguimos receber sua mensagem, tente novamente mais tarde."
+      }
+    },
     "form": {
       "title": "Trabalha Connosco",
       "name": "Nome",

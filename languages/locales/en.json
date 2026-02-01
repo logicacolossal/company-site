@@ -125,6 +125,16 @@
   "contact-us": {
     "title": "Contact Us",
     "description": "We’re here to turn your ideas into powerful digital solutions. Whether you're looking to build a custom application, scale your existing systems, or want to talk about our services, our team is ready to help. Reach out and let's start the conversation.",
+    "message": {
+      "submitted": {
+        "title": "Sent!",
+        "description": "Your message was sent, thanks for contacting us!"
+      },
+      "failed": {
+        "title": "Something went wrong.",
+        "description": "Sorry, we could not get you message, please try again later."
+      }
+    },
     "form": {
       "title": "Work with Us",
       "name": "Name",

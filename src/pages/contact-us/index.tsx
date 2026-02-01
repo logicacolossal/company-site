@@ -41,12 +41,12 @@ export function ContactUsPage() {
       reset();
 
       toast.success(t("message.submitted.title"), {
-		classNames: {
-			icon: "!text-emerald-300",
-			toast: "!bg-emerald-500 !border !border-emerald-300",
-			title: "!text-emerald-100",
-			description: "!text-emerald-200"
-		},
+        classNames: {
+          icon: "!text-emerald-300",
+          toast: "!bg-emerald-500 !border !border-emerald-300",
+          title: "!text-emerald-100",
+          description: "!text-emerald-200",
+        },
         position: "top-center",
         description: t("message.submitted.description"),
       });
@@ -56,12 +56,12 @@ export function ContactUsPage() {
       );
 
       toast.error(t("message.failed.title"), {
-		classNames: {
-			icon: "!text-destructive-foreground",
-			toast: "!bg-destructive !border !border-destructive-foreground",
-			title: "!text-destructive-foreground",
-			description: "!text-destructive-foreground"
-		},
+        classNames: {
+          icon: "!text-destructive-foreground",
+          toast: "!bg-destructive !border !border-destructive-foreground",
+          title: "!text-destructive-foreground",
+          description: "!text-destructive-foreground",
+        },
         position: "top-center",
         description: t("message.failed.description"),
       });
@@ -69,8 +69,8 @@ export function ContactUsPage() {
   };
 
   return (
-    <div className="flex flex-col items-center gap-10 min-h-[calc(100vh-5rem)] bg-gradient-to-br from-foreground/15 to-30% to-background text-foreground p-4 sm:p-8">
-      <h1 className="text-3xl font-bold bg-gradient-to-br from-sky-500 to-purple-500 text-center bg-clip-text text-transparent text-extrabold sm:text-5xl">
+    <div className="flex flex-col items-center gap-10 min-h-[calc(100vh-5rem)] bg-linear-to-br from-foreground/15 to-30% to-background text-foreground p-4 sm:p-8">
+      <h1 className="text-3xl font-bold bg-linear-to-br from-sky-500 to-purple-500 text-center bg-clip-text text-transparent text-extrabold sm:text-5xl">
         {t("title")}
       </h1>
       <div className="w-full md:w-4/5 xl:w-3/5">
