@@ -17,28 +17,20 @@ concurrency:
 
 jobs:
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-      - name: Set up Node
+      - name: Nodejs setup
         uses: actions/setup-node@v6
         with:
           node-version: lts/*
-          cache: 'npm'
       - name: Install dependencies
-        run: npm ci
+        uses: npm ci
       - name: Build
-        run: npm run build
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: './dist'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
