@@ -1,7 +1,7 @@
-import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa6";
+//import { FaInstagram } from "react-icons/fa";
+//import { FaLinkedin } from "react-icons/fa6";
 import { IoLogoGithub } from "react-icons/io";
-import { TfiEmail } from "react-icons/tfi";
+//import { TfiEmail } from "react-icons/tfi";
 import { useTranslation } from "react-i18next";
 import { Button } from "../ui/button";
 import { useNavigate } from "react-router-dom";
@@ -24,7 +24,7 @@ export function Footer() {
         <div className="flex flex-col gap-4">
           <h1 className="text-2xl font-semibold">{t("contacts.title")}</h1>
           <div className="flex flex-col gap-2">
-            <div className="flex gap-2 items-center">
+		  {/*<div className="flex gap-2 items-center">
               <TfiEmail className="w-4 h-4" />{" "}
               <a
                 aria-label="Send an email to Logica Colossal"
@@ -53,7 +53,7 @@ export function Footer() {
               >
                 Logica Colossal
               </a>
-            </div>
+            </div>*/}
             <div className="flex gap-2 items-center">
               <IoLogoGithub className="w-4 h-4" />{" "}
               <a

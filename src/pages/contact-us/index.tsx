@@ -7,6 +7,7 @@ import { PiBroomFill } from "react-icons/pi";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { contactFormSchema, ContactFormSchemaProps } from "./form-schema";
 import { cn } from "../../lib/utils";
+import { toast } from "sonner";
 
 export function ContactUsPage() {
   const { t } = useTranslation("contact-us");
@@ -16,29 +17,55 @@ export function ContactUsPage() {
     });
 
   const sendEmail = async (data: ContactFormSchemaProps) => {
-    const formData = new FormData();
+    try {
+      const formData = new FormData();
 
-    formData.append("name", data.name);
-    formData.append("company", data.company);
-    formData.append("email", data.email);
-    formData.append("message", data.message);
-    formData.append("access_key", "13832d4d-78a6-4833-bebe-054eac3fae72");
+      formData.append("name", data.name);
+      formData.append("company", data.company);
+      formData.append("email", data.email);
+      formData.append("message", data.message);
+      formData.append("access_key", "13832d4d-78a6-4833-bebe-054eac3fae72");
 
-    const object = Object.fromEntries(formData);
-    const json = JSON.stringify(object);
+      const object = Object.fromEntries(formData);
+      const json = JSON.stringify(object);
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: json,
-    });
+      await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: json,
+      });
 
-    const jsonResponse = await response.json();
+      reset();
 
-    console.log(jsonResponse);
+      toast.success(t("message.submitted.title"), {
+		classNames: {
+			icon: "!text-emerald-300",
+			toast: "!bg-emerald-500 !border !border-emerald-300",
+			title: "!text-emerald-100",
+			description: "!text-emerald-200"
+		},
+        position: "top-center",
+        description: t("message.submitted.description"),
+      });
+    } catch (error) {
+      console.error(
+        `somethihng went wrong while trying to send the message: ${error}`,
+      );
+
+      toast.error(t("message.failed.title"), {
+		classNames: {
+			icon: "!text-destructive-foreground",
+			toast: "!bg-destructive !border !border-destructive-foreground",
+			title: "!text-destructive-foreground",
+			description: "!text-destructive-foreground"
+		},
+        position: "top-center",
+        description: t("message.failed.description"),
+      });
+    }
   };
 
   return (
@@ -110,7 +137,7 @@ export function ContactUsPage() {
           <div
             className={cn(
               "flex flex-col gap-2",
-              formState.errors.message && "text-destructive"
+              formState.errors.message && "text-destructive",
             )}
           >
             <label htmlFor="message">
@@ -131,7 +158,11 @@ export function ContactUsPage() {
           </div>
         </div>
         <div className="flex flex-row gap-8">
-          <Button className="flex-1 text-lg font-bold" size="sm" type="submit">
+          <Button
+            className="flex-1 text-lg font-bold h-full"
+            size="sm"
+            type="submit"
+          >
             {t("form.submit")}
           </Button>
           <Button
