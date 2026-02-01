@@ -11,10 +11,10 @@ import { ContactUsPage } from "./pages/contact-us";
 function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="logicacolossal-theme">
-      <BrowserRouter basename="/company-site">
+      <BrowserRouter basename="/company-site/">
         <Routes>
           <Route path="/" element={<RootLayout />}>
-            <Route path="/" element={<Home />} />
+            <Route index element={<Home />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/services/freelance" element={<FreelancePage />} />
             <Route path="/services/web-api" element={<WebApiPage />} />
