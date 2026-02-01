@@ -11,7 +11,7 @@ import { ContactUsPage } from "./pages/contact-us";
 function App() {
   return (
     <ThemeProvider defaultTheme="system" storageKey="logicacolossal-theme">
-      <BrowserRouter>
+      <BrowserRouter basename="/company-site">
         <Routes>
           <Route path="/" element={<RootLayout />}>
             <Route path="/" element={<Home />} />
