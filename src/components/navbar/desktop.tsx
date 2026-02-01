@@ -11,6 +11,7 @@ import {
 import { LanguageSwitcher } from "../language-switcher";
 import { Separator } from "../ui/separator";
 import { /*Trans,*/ useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export function DesktopNavbar() {
   const { t } = useTranslation("navbar");
@@ -18,25 +19,29 @@ export function DesktopNavbar() {
   return (
     <div className="justify-between hidden sm:flex sm:w-full text-foreground">
       <div className="h-full flex gap-4 items-center">
-        <a href="/" className="relative group" aria-label="Go to the main page">
+        <Link
+          to="/"
+          className="relative group"
+          aria-label="Go to the main page"
+        >
           <img
             loading="lazy"
             alt="colossus"
-            src="/images/colossus-colored.svg"
+            src={import.meta.env.BASE_URL + "/images/colossus-colored.svg"}
             width={20}
             height={80}
           />
-        </a>
+        </Link>
 
         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
-              <a
+              <Link
                 className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
-                href="/services"
+                to="/services"
               >
                 {t("services.title")}
-              </a>
+              </Link>
             </NavigationMenuItem>
             {/* <NavigationMenuItem>
               <a href="/services" aria-label="Go to the services page">
@@ -101,12 +106,12 @@ export function DesktopNavbar() {
               </NavigationMenuContent>
             </NavigationMenuItem> */}
             <NavigationMenuItem>
-              <NavigationMenuLink
-                href="/contact-us"
+              <Link
                 className={`${navigationMenuTriggerStyle()} text-xl bg-transparent`}
+                to="/contact-us"
               >
                 {t("contact-us")}
-              </NavigationMenuLink>
+              </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
               <a

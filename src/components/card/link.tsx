@@ -1,5 +1,6 @@
 import { IoMdArrowForward } from "react-icons/io";
 import { cn } from "../../lib/utils";
+import { Link } from "react-router-dom";
 
 type CardLinkProps = {
   href: string;
@@ -10,8 +11,8 @@ type CardLinkProps = {
 
 export function CardLink({ href, text, className, target }: CardLinkProps) {
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       target={target}
       aria-label="Click in this link to see more content related to the card's subject"
     >
@@ -31,6 +32,6 @@ export function CardLink({ href, text, className, target }: CardLinkProps) {
           )}
         />
       </div>
-    </a>
+    </Link>
   );
 }
