@@ -16,7 +16,7 @@ i18n
       "pt-PT": ptPtJson,
     },
     fallbackLng: "en",
-    debug: true,
+    debug: false,
 
     interpolation: {
       escapeValue: false,
