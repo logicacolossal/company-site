@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import {
+    SiBlazor,
   SiExpo,
   SiNextdotjs,
   SiReact,
@@ -143,6 +144,24 @@ export function SecondSectionFrontEndTechs() {
           aria-label="Link to Typescript website"
         >
           <SiTypescript className="transition-all duration-300 w-12 h-12 group-hover:text-sky-500" />
+        </a>
+      </div>
+      <div
+        onMouseEnter={() =>
+          setTech({
+            name: "Blazor.",
+            color: "text-purple-500",
+          })
+        }
+        onMouseLeave={() => setTech(defaultTech)}
+        className="group col-span-1 transition-all duration-300 flex min-h-32 border border-input justify-center items-center hover:bg-accent"
+      >
+        <a
+          href="https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+          target="_blank"
+          aria-label="Link to Blazor website"
+        >
+          <SiBlazor className="transition-all duration-300 w-12 h-12 group-hover:text-purple-500" />
         </a>
       </div>
     </div>
