@@ -10,6 +10,7 @@ import {
 } from "../ui/dropdown-menu";
 import { Separator } from "../ui/separator";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export function MobileNavigation() {
   const { t } = useTranslation("navbar");
@@ -26,9 +27,13 @@ export function MobileNavigation() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
-        <DropdownMenuItem>{t("services.title")}</DropdownMenuItem>
+        <DropdownMenuItem>
+          <Link to="/services">{t("services.title")}</Link>
+        </DropdownMenuItem>
         <Separator orientation="horizontal" />
-        <DropdownMenuItem>{t("contact-us")}</DropdownMenuItem>
+        <DropdownMenuItem>
+          <Link to="/contact-us">{t("contact-us")}</Link>
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
